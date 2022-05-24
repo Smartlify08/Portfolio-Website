@@ -1,0 +1,16 @@
+{
+  "name": "Portfolio-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://github.com/Smartlify08/Portfolio-Website",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
