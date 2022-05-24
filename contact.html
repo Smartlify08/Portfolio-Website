@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartlify</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    >
+
+    <link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+crossorigin="anonymous">
+
+</head>
+<body class="bg-dark">
+
+    <nav class="nav bg-dark navbar-dark navbar position-sticky sticky-lg-top navbar-expand-lg">
+        <div class="container">
+
+            <div class="logo d-flex align-items-center gap-1">
+                <img src="images/Logo.png"alt="" class="img-fluid" style="width:40px; height:40px;">
+                <a class="navbar-brand text-primary fs-1 fw-bolder me-auto text-uppercase" href="index.html">Smartlify</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+  
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 fs-4">
+
+                <li class="nav-item  border-bottom border-2  ">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item border-bottom border-2 ">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            
+                <li class="nav-item border-bottom border-2 ">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+
+            </ul>
+  
+  
+  
+            </div>
+          </div>
+    </nav>
+
+
+
+    <header class="my-5">
+        <div class="container">
+            <h1 class="text-primary fw-bolder text-center display-2 text-uppercase">
+                Let's get to know each other
+            </h1>
+        </div>
+    </header>
+
+
+ 
+    <div class="form-container p-5">
+        <div class="container">
+            <form class="d-flex flex-column align-items-center gap-2">
+
+            <div class="form-group w-100">
+              <label for="exampleInputEmail1" class="text-light fs-3">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted  fst-italic text-light">We'll never share your email with anyone else.</small>
+            </div>
+
+            <div class="form-group w-50 w-100">
+                <label for="personality" class="text-light">Describe yourself </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+          
+            <button type="submit" class="btn btn-primary px-3">Submit</button>
+          </form>
+
+        </div>
+        
+    </div>
+
+
+
+    <section class="contact">
+        <div class="container">
+            <header class="d-flex flex-column gap-3">
+
+                <div class="header">
+                    <h1 class="text-light fw-bold text-center">
+                        Also Contact me on:
+                    </h1>
+                </div>
+                
+
+                    <div class="icon-box d-lg-flex d-md-flex flex-md-column flex-md-column d-sm-flex align-items-center gap-5 justify-content-center">
+
+                        <h1 class="text-primary">
+                            <i class="bi bi-facebook"></i>
+                        </h1>
+
+                        <h1 class="text-primary">
+                            <i class="bi bi-twitter"></i>
+                        </h1>
+
+                        <h1 class="text-danger">
+                            <i class="bi bi-instagram"></i>
+                        </h1>
+
+                        <h1 class="text-danger">
+                            <i class="bi bi-slack"></i>
+                        </h1>
+                        
+                        <h1 class="text-secondary">
+                            <i class="bi bi-linkedin"></i>
+                        </h1>
+
+                    </div>
+ 
+            </header>
+        </div>
+    </section>
+    
+
+    
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
