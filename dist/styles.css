@@ -66,39 +66,6 @@ body{
 
 
 
-#intro-section .img-box::before{
-    content: '';
-    width: 250px;
-    height: 30px;
-    background-color: rgb(71, 186, 105);
-    position: absolute;
-    bottom: 20%;
-    left: 60%;
-    z-index: -1;
-    border-radius: 5px;
-    animation-name:img-before;
-    animation-delay: 0s;
-    animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes img-before {
-    50%{
-        bottom: 50%;
-        opacity: 0.5;
-    }
-
-    100%{
-        bottom: 20%;
-        opacity: 100%;
-    }
-}
-
-
-
-
-
 
 #intro-section .img-box img{
     opacity: 100%;
@@ -132,11 +99,11 @@ body{
 
 @keyframes Scale{
     50%{
-        transform: scaleY(0.94);
+        transform: scaleY(0.98);
     }
 
     100%{
-        transform: scaleY(1.02);
+        transform: scaleY(1.01);
     }
 }
 
@@ -156,5 +123,13 @@ body{
 @media  (min-width:320px) {
     body{
         overflow-x: hidden;
+    }
+
+    #intro-section .img-box::before{
+       width:100%;
+    }
+
+    #projects .card:nth-of-type(5){
+        display: none;
     }
 }
