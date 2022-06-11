@@ -13,6 +13,10 @@ body{
     animation-timing-function: ease-in-out;
 }
 
+a{
+    text-decoration:none;
+}
+
 @keyframes body-fade{
     0%{
         visibility: hidden;
